@@ -494,7 +494,32 @@ def printLetterU():
    # the left motor makes the paper continue
    left_motor.run_angle(-200, 50)  
 
-#
+#Letter "Y"
+def printLetterY():
+   #the little motor goes from his base to the top of the paper
+   little_motor.run_angle(-100, 180)
+   # the right motor turns the pencil down to write
+   right_motor.run_angle(-100, 90)
+   # the little motor makes the first line
+   little_motor.run_angle(-100, 180)
+   # the left motor turns the paper 
+   left_motor.run_angle(-100, 50)
+   # the little motor turns the pencil to write the secound line
+   little_motor.run_angle(100, 180)
+   # the right motor turns the pencil up
+   right_motor.run_angle(100, 90)
+   # the little motor returns the pencil to the middle
+   little_motor.run_angle(-100, 180)
+   #the right motor turns the pencil down to write
+   right_motor.run_angel(-100, 50)
+   # the little motor turns the pencil at the top to finish the line
+   little_motor.run_angle(-100, 180)
+   # the right motor turns the penil up
+   right_motor.run_angle(100, 90)
+   # the little motor returns the pencil to the base
+   little_motor.run_angle(100, 180)
+   # the left motor makes the paper continue
+   left_motor.run_angle(-100, 50)
 
 
 # Insert your Letters here:
